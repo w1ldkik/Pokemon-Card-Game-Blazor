@@ -1,0 +1,32 @@
+﻿.Pokedex {
+    margin-bottom: 4rem;
+}
+
+.Pokedex-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Pokedex-totalExp{
+    font-size: 15px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.Pokedex-winner{
+    font-size: 30px;
+    font-weight: 800;
+    color: green;
+}
+
+.Pokedex-looser{
+    font-size: 30px;
+    font-weight: 800;
+    color: red;
+}
+
+.Pokedex-summary{
+    text-align: center;
+    margin-bottom: 2rem;
+}

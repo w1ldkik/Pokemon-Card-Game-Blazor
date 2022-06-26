@@ -1,0 +1,17 @@
+﻿<div class="Pokedex">
+    <div class="Pokedex-summary">
+        <div class="@(IsWinner ? "Pokedex-winner" : "Pokedex-looser")">
+            @(IsWinner ? "Winner!" : "Looser!")
+        </div>
+        <div class="Pokedex-totalExp">
+            Total Exp: @TotalExp
+        </div>
+    </div>
+    <div class="Pokedex-cards">
+        @foreach(var pokemon in Pokemons)
+        {
+            <Pokecard Pokemon = "pokemon"/>
+        }
+    </div>
+</div>
+
